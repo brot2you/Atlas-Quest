@@ -1,0 +1,45 @@
+ATLAS QUEST — ENGLAND ADVENTURE · V1
+==================================
+INSTALLER SUR GITHUB PAGES :
+1. Décompresse le fichier ZIP.
+2. Dans ton dépôt GitHub (nouveau dépôt recommandé : Atlas-Quest), utilise « Add file » > « Upload files ».
+3. Envoie tous les fichiers et le dossier assets/ en conservant leur organisation.
+4. Active Settings > Pages > Deploy from a branch > main > /(root).
+5. Ouvre https://ton-pseudo.github.io/Atlas-Quest/ après le déploiement.
+
+ATTENTION : envoie le CONTENU du dossier, pas le dossier atlas_quest_v1 lui-même.
+index.html doit se trouver à la racine du dépôt, au même niveau que app.js, data.js et style.css.
+
+FONCTIONNEMENT :
+- Aucune connexion ni base de données nécessaire pour les activités.
+- La sauvegarde se fait dans le stockage local du navigateur.
+- Options > Export Save permet d'enregistrer une progression JSON.
+- Options > Import Save permet de recharger ce fichier sur un autre appareil.
+- Sur les machines partagées, chaque élève devrait exporter sa sauvegarde après sa séance.
+- Le bouton « FR ? » active des aides françaises facultatives.
+- Tu peux modifier les textes, questions, cartes dans data.js ou app.js.
+
+CONTENU V1 :
+- Création de quatre avatars et choix de sac.
+- Deux niveaux de cartes : Angleterre et Londres.
+- Six chapitres, 24 points de découverte dans des scènes interactives et 12 mini-jeux.
+- 24 cartes individuelles (18 communes, 4 spéciales, 2 dorées).
+- Passeport, tampon par chapitre, miles, carte postale.
+- Cartes, miles et tampons obtenus une seule fois.
+- Fonctionne en touchant les boutons sur tablette et smartphone.
+- Jeu non évaluatif : les miles ne sont PAS un score CECRL.
+
+LIMITES V1 :
+- Les cartes dessinées sont des cartes de jeu schématiques : ne pas les utiliser pour des évaluations de localisation exacte.
+- Les décors et illustrations sont des pixel arts originaux réalisés pour cette première version ; une
+  future passe artistique pourra apporter des scènes plus riches et des personnages en mouvement.
+- Les autres pays sont annoncés mais non jouables.
+- Pour transférer la sauvegarde entre navigateurs, il faut utiliser Export/Import.
+- Aucun son ni synthèse vocale à ce stade.
+
+SOURCES : Menu Options > Sources used for England.
+Les affirmations ont été confrontées à l'Office for National Statistics, Visit London,
+Camden Market, Shakespeare's Globe, Bank of England, Royal Mint et Éduscol.
+
+Tous les fichiers nécessaires au site sont à la racine et dans assets/.
+Aucun outil technique supplémentaire n’est nécessaire pour mettre le site en ligne.
