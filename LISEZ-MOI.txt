@@ -1,39 +1,20 @@
-ATLAS QUEST — WORLD EXPLORER · V1.1 (base multi-destinations)
-==========================================================
+ATLAS QUEST V2 — PIXEL COMIC ADVENTURE
 
-INSTALLATION / MISE A JOUR GITHUB PAGES
-1. Décompresse le ZIP sur ton ordinateur.
-2. Ouvre ton dépôt GitHub Pages.
-3. Dépose TOUS les fichiers et TOUS les sous-dossiers de ce ZIP à la racine.
-4. Vérifie que index.html est au même niveau que app.js, destinations.js et style.css.
-5. Les sous-dossiers "countries/england/" et "assets/" doivent conserver leur arborescence.
-6. Les utilisateurs déjà sur V1 conserveront automatiquement leur progression V1 dans le MÊME navigateur :
-   le navigateur importe les anciennes données vers le nouveau format lors du premier lancement.
-   Export Save / Import Save fonctionne aussi pour les fichiers .json de V1 et V1.1.
-7. Actualise la page GitHub Pages (Ctrl+F5 si l'ancienne version reste affichée).
+1. Décompressez le ZIP.
+2. Copiez TOUT le contenu du dossier dans la racine de votre dépôt GitHub Pages (index.html à la racine).
+3. Dans GitHub, Settings > Pages > Deploy from a branch > main / root.
+4. Ouvrez votre URL GitHub Pages.
 
-CE QUE CETTE VERSION CHANGE
-- Carte du monde : 12 destinations identifiées (1 seule est jouable aujourd'hui).
-- Les destinations non développées portent la mention COMING LATER, sans faux jeux.
-- Données culturelles anglaises déplacées dans countries/england/content.js.
-- Catalogue indépendant des pays dans destinations.js.
-- Suivi de progression V2 : infos explorateur globales, états propres à chaque pays.
-- Totaux globaux pour les miles, tampons et cartes ; chaque lot d'un pays reste distinct.
-- Les cartes pays / ville, drapeaux, prix, devises, dialogues et données des jeux sont définis dans le module de la destination.
-- L'Angleterre garde ses 6 chapitres, 12 jeux, 24 cartes et sauvegardes antérieures.
-- Les drapeaux ne sont pas générés automatiquement : l'Angleterre utilise la ressource contrôlée.
+NOUVEAUTÉS V2
+- Six rencontres BD interactives en anglais, une par chapitre.
+- Trois cases successives et choix de réponses.
+- Portraits et décors pixel art de la V1.1 conservés.
+- Aide française facultative.
+- +10 miles uniquement lors de la première conversation par chapitre.
+- Relecture possible sans nouvel octroi de miles.
+- Progression V1/V1.1 conservée dans le navigateur.
+- Export/import JSON dans OPTIONS.
 
-POUR AJOUTER UN PAYS PLUS TARD
-1. Créer countries/nom-du-pays/content.js : un module contenant chapitres, découvertes, cartes et sources vérifiées.
-2. Ajouter les illustrations originales dans countries/nom-du-pays/assets/.
-3. Ajouter le script du nouveau module dans index.html (avant destinations.js et app.js).
-4. Dans destinations.js, indiquer status:'playable' uniquement quand le module est prêt et testé.
-5. Ajouter ou adapter les activités du pays en réutilisant les mécaniques du moteur.
-   Certaines activités proprement culturelles demandent un nouveau contenu et éventuellement un jeu
-   dédié ; cette version ne prétend PAS rendre ces destinations jouables sans développement.
-6. Vérifier faits, géographie, dates, monnaies, symboles et drapeaux sur sources officielles.
-7. Chaque pays conserve son propre progrès. Le passeport et les miles sont globaux.
+Lieux et faits culturels : Angleterre et Londres restent séparés. Camden Market et le Globe sont à Londres. Les nouvelles destinations restent en préparation.
 
-AUCUN serveur, compte utilisateur, abonnement ni connexion à GitHub nécessaire dans l'app.
-Les sauvegardes restent dans le navigateur, transférables par Export / Import.
-Les scores de jeu ne mesurent pas le niveau CECRL.
+Aucun compte, serveur d’application ou abonnement n’est nécessaire. Les fichiers du site sont hébergés statiquement par GitHub Pages.
