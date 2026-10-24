@@ -1,20 +1,29 @@
-ATLAS QUEST V2 — PIXEL COMIC ADVENTURE
+ATLAS QUEST — ENGLAND FIELD GUIDE (V2.2)
+=========================================
+INSTALLATION :
+1. Décompresser le ZIP.
+2. Ouvrir le dépôt GitHub Atlas-Quest.
+3. Déposer TOUS les fichiers et dossiers à la racine et valider Commit changes.
+4. Actualiser https://brot2you.github.io/Atlas-Quest/ (au besoin recharger la page).
 
-1. Décompressez le ZIP.
-2. Copiez TOUT le contenu du dossier dans la racine de votre dépôt GitHub Pages (index.html à la racine).
-3. Dans GitHub, Settings > Pages > Deploy from a branch > main / root.
-4. Ouvrez votre URL GitHub Pages.
+NOUVEAUTÉS :
+- Un onglet FIELD GUIDE accessible depuis la barre du bas.
+- 24 lieux supplémentaires en Angleterre, Londres et régions anglaises.
+- Pour chaque lieu : fait culturel en anglais, question de compréhension, aide FR facultative, récompense unique de 8 miles.
+- Les découvertes du carnet restent sauvegardées et exportables dans le même JSON.
+- Les données nouvelles se trouvent dans countries/england/field-guide.js pour faciliter les futurs packs pays.
 
-NOUVEAUTÉS V2
-- Six rencontres BD interactives en anglais, une par chapitre.
-- Trois cases successives et choix de réponses.
-- Portraits et décors pixel art de la V1.1 conservés.
-- Aide française facultative.
-- +10 miles uniquement lors de la première conversation par chapitre.
-- Relecture possible sans nouvel octroi de miles.
-- Progression V1/V1.1 conservée dans le navigateur.
-- Export/import JSON dans OPTIONS.
+CONSERVÉ :
+- Chapitres, BD pixel art, 12 mini-jeux existants, 24 cartes existantes.
+- Pas de serveur / compte / abonnement.
+- Anciennes sauvegardes V2.1 conservées sous la même clé.
+- Drapeau anglais distinct de l'Union Flag. Les futurs pays sont encore en préparation.
 
-Lieux et faits culturels : Angleterre et Londres restent séparés. Camden Market et le Globe sont à Londres. Les nouvelles destinations restent en préparation.
+LIMITES :
+- Le FIELD GUIDE est un carnet de découvertes, pas encore une carte de déplacement libre avec scènes pixel art dédiées à chaque lieu.
+- Les 48 cartes et les nouveaux décors HD projetés ne sont pas encore intégrés.
+- La V2.2 nécessite une validation tactile dans les navigateurs cibles après publication.
 
-Aucun compte, serveur d’application ou abonnement n’est nécessaire. Les fichiers du site sont hébergés statiquement par GitHub Pages.
+Sources à consulter pour contrôle éditorial :
+https://www.visitbritain.org/destinations/england
+https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/top-ten-attractions

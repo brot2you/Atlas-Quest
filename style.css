@@ -42,3 +42,34 @@ html{background-color:#0b1428}body{min-height:100vh;background-color:#0b1428}:ro
 .comic-choices,.comic-ending{padding:12px 22px 20px}.comic-choices h3{color:#ffe2a0}.comic-option{display:block;width:100%;text-align:left;margin:10px 0;background:#294c6a}.comic-option:hover,.comic-option:focus-visible{background:#286c78}.comic-ending p{color:#ffefd5}.comic-ending strong{color:#ffdf89}
 @media(max-width:680px){.comic-entry{gap:9px;flex-wrap:wrap;padding:10px}.comic-entry>img{width:70px;height:70px}.comic-entry>div{min-width:55%}.comic-entry .btn{width:100%}.comic-book{max-height:94dvh}.comic-panels{display:flex;overflow-x:auto;scroll-snap-type:x mandatory}.comic-panel{min-width:100%;min-height:0;scroll-snap-align:center}.comic-panel:not(.comic-current){display:none}.comic-visual{height:32dvh;min-height:150px}.comic-visual img{height:100%;width:140px}.comic-balloon{font-size:16px;min-height:110px}.comic-top{padding:7px;font-size:12px}.comic-bottom{padding:10px;flex-wrap:wrap}.comic-btn{flex:1}}
 @media(prefers-reduced-motion:reduce){.comic-book *{animation:none!important}}
+
+/* V2.1 PIXEL ADVENTURE DELUXE — visual layer (no changes to save/game logic) */
+:root{--gold:#f0c77d;--paper:#fff0d0;--teal:#23877e}
+body{background:radial-gradient(ellipse at 52% 4%,#315570 0,#172944 48%,#0b1428 100%) fixed}
+.hero,.chapter-banner,.map-art,.explore-art,.comic-visual{image-rendering:pixelated;background-repeat:no-repeat}
+.hero{border:5px solid #dfb77b;box-shadow:0 0 0 4px #28384c,0 15px 0 #090f22,0 27px 70px #0009;overflow:hidden}
+.hero:before{background:linear-gradient(90deg,#0b1e39ec 0%,#102744c9 39%,#16283c25 83%)}
+.hero-inner{position:relative;z-index:2}
+.hero h1{color:#fff0c6;text-shadow:4px 4px 0 #15233c,7px 7px 0 #9d644b,0 0 30px #e8bc7799}
+.hero .eyebrow{color:#ffdc91;letter-spacing:2px}
+.hero-sub{color:#b2edf0}
+.hero-avatars{z-index:3;filter:drop-shadow(5px 7px 0 #0c2037)}
+.map-frame,.scene-explore,.panel,.world-welcome,.comic-entry{border-radius:5px}
+.map-frame{border:5px solid #d7ad72;box-shadow:0 0 0 4px #2c455c,0 10px 0 #0c1b31}
+.map-art{background-size:100% 100%}
+.map-pin{touch-action:manipulation;cursor:pointer}
+.map-pin:focus-visible,.scene-spot:focus-visible,.dock button:focus-visible,.btn:focus-visible,.comic-btn:focus-visible,.comic-option:focus-visible{outline:4px solid #fff3b6;outline-offset:3px}
+.dock button,.btn,.comic-btn,.comic-option{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.scene-explore{border-color:#e0b77c}
+.scene-spot{z-index:2;min-width:44px;min-height:44px}
+.comic-book{border-image:none;background:#223750;box-shadow:0 0 0 5px #0d1829,0 19px 0 #0a1123,0 30px 60px #0009}
+.comic-panel{background:#f3e4c4;border-color:#17263b;box-shadow:5px 5px 0 #b1804a}
+.comic-balloon{background:#fff9e9;border-top:5px solid #132d40}
+.comic-visual{background-position:center;background-size:cover}
+.comic-top{background:repeating-linear-gradient(90deg,#192d46 0px,#192d46 12px,#223a55 12px,#223a55 24px)}
+.comic-entry{border-color:#f0c477}
+.home-teasers article{border:3px solid #b89464;box-shadow:4px 5px 0 #0a1528}
+button{cursor:pointer}
+@media(max-width:650px){.hero{background-position:54% center}.hero:before{background:linear-gradient(180deg,#0b1e3bec,#142942cc 62%,#15294255 100%)}.hero-inner{padding-bottom:150px}.hero-avatars{bottom:5px}.map-art{background-size:100% 100%}.comic-panel{box-shadow:none}}
+/* Field guide: optional cultural exploration, shared engine / country data. */
+.field-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;margin:22px 0 60px}.field-tile{display:flex;align-items:center;gap:14px;text-align:left;padding:17px;min-height:104px;border-radius:13px;border:2px solid #6485ac;background:linear-gradient(140deg,#172c49,#263d57);color:#fff;cursor:pointer;box-shadow:0 5px 0 #0a1728}.field-tile>span:nth-child(2){display:grid;gap:4px;flex:1}.field-tile small{color:#d6cfb4;font-size:11px}.field-tile strong{font-size:17px}.field-tile em{font-size:12px;color:#a5cfe7;font-style:normal}.field-index{color:#f2cf78;font-weight:900}.field-mark{font-size:26px;color:#ffd46c}.field-tile.completed{border-color:#d8b458}.field-tile:focus-visible,.field-answers button:focus-visible{outline:4px solid #ffd76d;outline-offset:3px}.field-shade{position:fixed;inset:0;display:grid;place-items:center;background:#071125dd;z-index:100;padding:16px;overflow:auto}.field-dialog{position:relative;background:#f5e7cb;color:#202a40;border:5px solid #23395b;border-radius:18px;padding:clamp(18px,4vw,32px);width:min(680px,100%);max-height:94dvh;overflow:auto;box-shadow:0 12px 0 #0b1523}.field-dialog h2,.field-dialog h3{color:#1b3150}.field-dialog>.xbtn{position:absolute;right:12px;top:12px;min-width:44px;min-height:44px}.field-comic{display:flex;gap:15px;align-items:center;margin:18px 0}.field-portrait{flex:0 0 90px;background:#a5cade;border:3px solid #203557;border-radius:12px;padding:6px}.field-portrait img{width:100%;image-rendering:pixelated}.field-speech{background:white;border:3px solid #203557;border-radius:16px;padding:14px;flex:1}.field-speech p{color:#1c2e45;margin:8px 0}.field-answers{display:grid;gap:10px;margin:15px 0}.field-answers button{padding:13px;background:#e0eaf2;border:2px solid #3c5a75;border-radius:10px;font-weight:700;color:#203557;cursor:pointer;min-height:50px;text-align:left}.field-answers button:hover{background:#fff0bc}.field-feedback{font-weight:700;color:#264b6d;min-height:2em}@media(max-width:520px){.field-comic{align-items:flex-start}.field-portrait{flex-basis:63px}.field-dialog{border-width:3px}}
