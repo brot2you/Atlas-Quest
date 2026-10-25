@@ -1,4 +1,1 @@
-WORLDHOP V0.1 — TEST JOUABLE
-Base Atlas Quest V2.3. Interface rebranded WORLDHOP and PIXEL PASSPORT.
-Original gameplay and save compatibility preserved; storage schema atlas-quest intentionally unchanged.
-Deluxe illustrations are NOT yet integrated. Test in a separate folder or test repository before publishing.
+WORLDHOP V0.2 - London Adventure playable prototype\nOriginal Atlas Quest V2.3 gameplay retained. London navigation, four hotspots, dialogue, English question, one-time +20 miles, separate mission save.\nNote: Deluxe illustration assets NOT integrated. Original pixel art is used. Test in a separate repository before replacing your live app.\n
