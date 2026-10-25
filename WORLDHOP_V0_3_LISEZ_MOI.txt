@@ -1,0 +1,3 @@
+WORLDHOP V0.3 — England Deluxe: London Adventure
+Includes 7 optimized authentic Deluxe illustrations, 5 locations, character dialogues, 5 contextual questions, story progression, 5-mile first-visit rewards and 20-mile final reward, local persistence. Original V2.3 modules preserved.
+Publish only after testing on a separate GitHub Pages site.
