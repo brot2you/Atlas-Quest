@@ -1,0 +1,4 @@
+WORLDHOP V0.1 — TEST JOUABLE
+Base Atlas Quest V2.3. Interface rebranded WORLDHOP and PIXEL PASSPORT.
+Original gameplay and save compatibility preserved; storage schema atlas-quest intentionally unchanged.
+Deluxe illustrations are NOT yet integrated. Test in a separate folder or test repository before publishing.
